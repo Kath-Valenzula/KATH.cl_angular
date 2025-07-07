@@ -1,0 +1,10 @@
+<section id="categorias" class="products container">
+  <h2 class="section-title">Explora por categoría</h2>
+  <div class="cards-grid">
+    <a class="game-card" *ngFor="let cat of categorias" [href]="'#' + cat.id">
+      <img [src]="cat.img" [alt]="cat.nombre">
+      <h3>{{ cat.nombre }}</h3>
+      <p>{{ cat.descripcion }}</p>
+    </a>
+  </div>
+</section>

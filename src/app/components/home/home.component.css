@@ -1,0 +1,15 @@
+.home-section {
+  margin-top: 6rem;
+  padding: 2rem;
+}
+.home-section ul {
+  list-style: none;
+  padding: 0;
+}
+.home-section li {
+  background: #2db34a;
+  color: white;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+}

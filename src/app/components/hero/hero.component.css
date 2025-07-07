@@ -1,0 +1,28 @@
+.hero {
+  background: url('/assets/img/hero.jpg') center/cover no-repeat;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+.hero-text {
+  background: rgba(0,0,0,0.5);
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center;
+}
+.hero-text h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+.hero-text p {
+  margin-bottom: 1rem;
+}
+.btn {
+  background: #2db34a;
+  padding: 0.75rem 1.5rem;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}

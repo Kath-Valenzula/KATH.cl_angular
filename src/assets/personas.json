@@ -1,0 +1,18 @@
+[
+  {
+    "nombre": "Laura González",
+    "usuario": "lauragonzalez",
+    "email": "laura@example.com",
+    "password": "Laura1234",
+    "fecha": "2000-05-15",
+    "consent": true
+  },
+  {
+    "nombre": "Juan Pérez",
+    "usuario": "juanp",
+    "email": "juan@example.com",
+    "password": "Juan1234",
+    "fecha": "1998-03-22",
+    "consent": true
+  }
+]

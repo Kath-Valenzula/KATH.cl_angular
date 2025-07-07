@@ -1,0 +1,14 @@
+<section id="productos" class="category-section container">
+  <h2>Juegos de Estrategia</h2>
+  <div class="games-grid">
+    <div class="game-card" *ngFor="let juego of productos">
+      <img [src]="juego.img" [alt]="juego.nombre">
+      <h3>{{ juego.nombre }}</h3>
+      <p>{{ juego.descripcion }}</p>
+      <span>
+        ${{ juego.precio | number:'1.0-0' }}
+        <strong *ngIf="juego.descuento">{{ juego.descuento }}% OFF</strong>
+      </span>
+    </div>
+  </div>
+</section>

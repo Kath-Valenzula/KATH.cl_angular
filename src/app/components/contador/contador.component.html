@@ -1,0 +1,5 @@
+<section class="contador-section">
+  <input type="number" [(ngModel)]="step" class="step-input">
+  <app-contador-control [count]="count$ | async" (incrementar)="actualizar($event)"></app-contador-control>
+  <p>Valor actual: {{ count$ | async }}</p>
+</section>

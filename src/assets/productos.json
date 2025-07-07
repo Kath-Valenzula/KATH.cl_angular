@@ -1,0 +1,23 @@
+[
+  {
+    "nombre": "Ajedrez",
+    "descripcion": "Cl\u00e1sico juego de estrategia para dos jugadores.",
+    "precio": 19990,
+    "descuento": 0,
+    "img": "assets/img/ajedrez.jpg"
+  },
+  {
+    "nombre": "Catan",
+    "descripcion": "Conquista y comercio en la isla de Catan.",
+    "precio": 24990,
+    "descuento": 10,
+    "img": "assets/img/catan.jpg"
+  },
+  {
+    "nombre": "Risk",
+    "descripcion": "Domina el mundo con estrategia militar.",
+    "precio": 21990,
+    "descuento": 0,
+    "img": "assets/img/risk.jpg"
+  }
+]

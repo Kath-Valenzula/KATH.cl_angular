@@ -1,0 +1,35 @@
+.contact-section {
+  background-color: #c4c4bf;
+  color: #111;
+  padding: 2rem;
+  border-radius: 8px;
+}
+.contact-section h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.contact-section form {
+  display: flex;
+  flex-direction: column;
+}
+.contact-section div {
+  margin-bottom: 1rem;
+}
+.contact-section input,
+.contact-section textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+.contact-section button {
+  background: #2db34a;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.contact-section button:hover {
+  background: #219e3b;
+}
