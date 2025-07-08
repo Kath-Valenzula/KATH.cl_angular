@@ -36,7 +36,7 @@ export class LoginComponent implements OnInit {
       const usuarios: Usuario[] = [...data, ...this.registroService.getRegistrados()];
       const existe = usuarios.find(u => u.email === email && u.password === password);
       if (existe) {
-        this.router.navigate(['/']);
+        this.router.navigate(['/'], { state: { nombre: existe.nombre } });
       } else {
         this.error = 'Credenciales inválidas';
       }
