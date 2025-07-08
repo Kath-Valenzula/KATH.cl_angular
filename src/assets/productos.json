@@ -20,4 +20,69 @@
     "descuento": 0,
     "img": "assets/img/risk.jpg"
   }
+    },
+  {
+    "nombre": "Monopoly",
+    "descripcion": "Compra y vende propiedades para ganar.",
+    "precio": 28990,
+    "descuento": 0,
+    "img": "assets/img/monopoly.jpg"
+  },
+  {
+    "nombre": "Jenga",
+    "descripcion": "Habilidad y equilibrio en cada jugada.",
+    "precio": 14990,
+    "descuento": 0,
+    "img": "assets/img/jenga.jpg"
+  },
+  {
+    "nombre": "Memory",
+    "descripcion": "Pon a prueba tu memoria.",
+    "precio": 9990,
+    "descuento": 0,
+    "img": "assets/img/memory.jpg"
+  },
+  {
+    "nombre": "Uno",
+    "descripcion": "Cl\u00e1sico juego de cartas para la familia.",
+    "precio": 7990,
+    "descuento": 0,
+    "img": "assets/img/uno.jpg"
+  },
+  {
+    "nombre": "Poker",
+    "descripcion": "El juego de cartas m\u00e1s famoso del mundo.",
+    "precio": 6990,
+    "descuento": 0,
+    "img": "assets/img/poker.jpg"
+  },
+  {
+    "nombre": "Loter\u00eda",
+    "descripcion": "Versi\u00f3n cl\u00e1sica de bingo mexicano.",
+    "precio": 5990,
+    "descuento": 0,
+    "img": "assets/img/loteria.jpg"
+  },
+  {
+    "nombre": "Twister",
+    "descripcion": "Diversi\u00f3n enredada para fiestas.",
+    "precio": 15990,
+    "descuento": 0,
+    "img": "assets/img/twister.jpg"
+  },
+  {
+    "nombre": "Karaoke",
+    "descripcion": "Canta tus canciones favoritas.",
+    "precio": 19990,
+    "descuento": 0,
+    "img": "assets/img/karaoke.jpg"
+  },
+  {
+    "nombre": "Beer Pong",
+    "descripcion": "Juego para animar tus reuniones.",
+    "precio": 12990,
+    "descuento": 0,
+    "img": "assets/img/beerpong.jpg"
+  }
+
 ]

@@ -15,6 +15,7 @@ import { RegistroComponent } from './components/registro/registro.component';
 import { HomeComponent } from './components/home/home.component';
 import { ContadorComponent } from './components/contador/contador.component';
 import { ContadorControlComponent } from './components/contador-control/contador-control.component';
+import { LoginComponent } from './components/login/login.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { ContadorControlComponent } from './components/contador-control/contador
     RegistroComponent,
     HomeComponent,
     ContadorComponent,
-    ContadorControlComponent
+    ContadorControlComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
