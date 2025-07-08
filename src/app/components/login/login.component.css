@@ -1,21 +1,30 @@
-
-<section class="form-section">
-  <h2>Iniciar sesión</h2>
-  <form [formGroup]="form" (ngSubmit)="onSubmit()">
-    <div>
-      <label for="email">Email</label>
-      <input id="email" formControlName="email" type="email">
-    </div>
-    <div>
-      <label for="password">Contraseña</label>
-      <input id="password" formControlName="password" type="password">
-    </div>
-    <button type="submit">Ingresar</button>
-  </form>
-  <div *ngIf="form.invalid && enviado" style="color:red;">
-    Verifica los campos.
-  </div>
-  <div *ngIf="error" style="color:red;">
-    {{ error }}
-  </div>
-</section>
+.form-section {
+  margin-top: 4rem;
+  padding: 2rem;
+  background-color: #0c1b13;
+  color: white;
+  border-radius: 8px;
+}
+.form-section h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.form-section div {
+  margin-bottom: 1rem;
+}
+.form-section input[type="email"],
+.form-section input[type="password"] {
+  width: 100%;
+  padding: 0.5rem;
+}
+button {
+  background: #2db34a;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background: #219e3b;
+}
